@@ -57,7 +57,7 @@ const DestinyDetailsCard = ({
 				"
 			>
 				<Image
-					src={assetPath(poi.image)}
+					src={poi.image}
 					alt={poi.name}
 					fill
 					className="object-cover"

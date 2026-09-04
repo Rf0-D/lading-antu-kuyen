@@ -62,7 +62,7 @@ const HeroAntu = () => {
       {/* Background */}
       <div className="absolute inset-0">
         <Image
-          src={assetPath("/hero.avif")}
+          src={"/hero.avif"}
           alt=""
           fill
           priority

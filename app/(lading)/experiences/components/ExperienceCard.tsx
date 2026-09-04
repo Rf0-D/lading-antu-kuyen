@@ -56,10 +56,9 @@ const ExperienceCard = ({ experience }: ExperienceCardProps) => {
         <div className="flex items-center gap-3">
           <div className="relative h-10 w-10 overflow-hidden rounded-full border border-orange-500/30">
             <Image
-              src={
-                assetPath(experience
+              src={experience
                   .author
-                  .avatar)
+                  .avatar
               }
               alt={
                 experience
@@ -116,7 +115,7 @@ const ExperienceCard = ({ experience }: ExperienceCardProps) => {
 
       <div className="relative h-[320px] w-full">
         <Image
-          src={assetPath(experience.image)}
+          src={experience.image}
           alt={experience.location}
           fill
           className="object-cover"

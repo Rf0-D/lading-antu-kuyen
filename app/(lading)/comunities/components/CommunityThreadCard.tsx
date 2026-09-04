@@ -127,9 +127,8 @@ const CommunityThreadCard = ({
 				<div className="flex min-w-0 items-center gap-2">
 					<div className="relative h-7 w-7 shrink-0 overflow-hidden rounded-full">
 						<Image
-							src={assetPath(
-								thread.author
-									.avatar)
+							src={
+								thread.author.avatar
 							}
 							alt={
 								thread.author

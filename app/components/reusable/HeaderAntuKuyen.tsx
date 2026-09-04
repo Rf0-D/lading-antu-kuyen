@@ -76,7 +76,7 @@ const HeaderAntu = () => {
 						className="flex items-center gap-3"
 					>
 						<Image
-							src={assetPath("/icons/antukuyen-header-32x32.png")}
+							src={"/icons/antukuyen-header-32x32.png"}
 							width={32}
 							height={32}
 							alt="Antü Küyen"
