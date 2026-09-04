@@ -1,6 +1,6 @@
 const BASE_PATH =
 	process.env.NODE_ENV === "production"
-		? "/antu-kuyen-landing"
+		? "/lading-antu-kuyen"
 		: "";
 
 export const assetPath = (path: string) => {
